@@ -14,7 +14,7 @@ Development: https://github.com/brendanarnold/py-fortranformat
 Documentation: https://github.com/brendanarnold/py-fortranformat/blob/master/docs/wiki/guide.md
 
 FORTRAN format interpreter for Python.
-Generates text from a Python list of variables or will read a line of text into Python variables according  to the FORTRAN format statement passed.
+Generates text from a Python list of variables or will read a line of text into Python variables according to the FORTRAN format statement passed.
 
 Current build status
 ====================
