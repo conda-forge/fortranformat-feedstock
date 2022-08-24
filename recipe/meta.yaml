@@ -1,5 +1,5 @@
 {% set name = "fortranformat" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 67b0b2438491b010a6c62ac9b5de0c7ffa250b8f8ad1083f5244467b47947dba
+  sha256: a8c41ab39bb40444e6ca17f38755d64df51799b064206833c137a28bbdca1b2b
 
 build:
   number: 0
