@@ -1,11 +1,11 @@
-About fortranformat
-===================
+About fortranformat-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fortranformat-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/brendanarnold/py-fortranformat
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fortranformat-feedstock/blob/main/LICENSE.txt)
 
 Summary: Mimics Fortran textual IO in Python
 
