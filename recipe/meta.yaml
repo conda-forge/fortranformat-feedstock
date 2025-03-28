@@ -19,9 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    # change to `poetry-core` upon 2.0.1 release as fortranformat is switching to poetry as the
-    # build tool from the next release https://github.com/brendanarnold/py-fortranformat/pull/39
-    - setuptools
+    - poetry-core
   run:
     - python >={{ python_min }}
 
