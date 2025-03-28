@@ -1,5 +1,5 @@
 {% set name = "fortranformat" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 52473831d6f6bad7c2de0f26ad51856ea5d0ef097bcba5af3b855b871b815b0d
+  sha256: 0fc047b944133c1cb9e3bce3487353b43a90726abccae425f68282ca5527b60b
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -19,9 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    # change to `poetry-core` upon 2.0.1 release as fortranformat is switching to poetry as the
-    # build tool from the next release https://github.com/brendanarnold/py-fortranformat/pull/39
-    - setuptools
+    - poetry-core
   run:
     - python >={{ python_min }}
 
